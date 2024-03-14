@@ -1,0 +1,133 @@
+body
+{
+    background-color: #000000;
+}
+.post-card
+{
+    display: flex;
+}
+
+.feed {
+    width:50%;
+    height: auto;
+    background-color: #000000;
+    margin: 80px auto;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.feed h2
+{
+    text-align: center;
+    color: white;
+}
+.feed .username {
+    padding: 10px 30px 0px 30px;
+    display: flex;
+    flex-flow: row;
+}
+
+.feed .username .image, .feed .username .image img {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+
+.feed .username a {
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.feed .username .id {
+    margin: 10px 15px;
+}
+
+.feed .post {
+    width: 100%;
+    height: 300px;
+    margin: 10px 0px;
+}
+
+.feed .post img {
+    width: 100%;
+    height:inherit;
+}
+
+.feed .btn-group {
+    padding: 0px 10px;
+}
+
+.feed .btn-group button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+.feed .btn-group #like,#close
+{
+    font-size: 16px;
+    transition: all 0.5s;
+}
+.feed .btn-group #like:hover
+{
+    color: #fc0008;
+}
+.feed .btn-group #close:hover
+{
+    color: #fc0008;
+}
+.feed .btn-group .btn-bookmark {
+    float: right;
+    margin-top:6px;
+}
+
+.feed .caption {
+    font-size: 13px;
+    padding: 0px 20px;
+} 
+
+.feed .caption .like 
+{   
+    font-weight: bold;
+    color: #ffffff;
+    font-size:16px;
+}
+
+.feed .caption .id {
+    color: #ffffff;
+    text-decoration: none;
+}
+.feed .caption .caption_2
+{
+    color: #ffffff;
+}
+.feed .caption .time {
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.col-6
+{
+    width: 50%;
+    padding: 15px;
+}
+.flex
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#comment_count_2
+{
+    color: #ffffff;
+}
+#follow,#follow_2
+{
+    background-color:#2f92f5;
+    padding: 4px;
+    font-weight: 600;
+    border-radius:5px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
